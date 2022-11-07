@@ -1,2 +1,93 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+My Drive
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food App</title>
+  </head>
+
+  <body style="adding:0px;margin:0px;background-color:#49c5b6;font-family: sansation;">
+    <header>
+      <ul>
+        <li><a href="#">INDEX</a></li>
+        <li><a href="#">FOOD</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">ORDERS</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+      </ul>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h2>TOP 5 FAVOURITE FOODS</h2>
+        <ul>
+          <li><a href="#BIRYANI">BIRYANI</a></li>
+          <li><a href="#MASALADOSA">MASALADOSA</a></li>
+          <li><a href="#pizza">PIZZA</a></li>
+          <li><a href="#choupsey">IDLI</a></li>
+          <li><a href="#wings">POORI</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="BIRYANI"><img src="biryani.jfif" class="fooditem"></div>
+        <p class="labels">BIRYANI</p>
+        <div id="MASALADOSA"><img src="masaladosa.jfif" class="fooditem"/></div>
+        <p class="labels">MASALADOSA</p>
+        <div id="pizza"><img src="pizza.jfif" class="fooditem"/></div>
+        <p class="labels">PIZZA</p>
+        <div id="choupsey"><img src="idli.jfif" class="fooditem"/></div>
+        <p class="labels">IDLI</p>
+        <div id="wings"><img src="poori.jfif" class="fooditem"/></div>
+        <p class="labels">POORI</p>
+      </div>
+    </div>
+  </body>
+</html>
+<style>
+  header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+header li {
+float: left;
+}
+
+header li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+header li a:hover {
+background-color: #49c5b6;
+box-sizing:border-box;
+border-radius: 5px;
+
+}
+  .text-content a{
+    text-decoration:none;
+    color:black;
+  }
+  .images{
+    width:30%;
+    height:30%;
+    margin:0 auto;
+  }
+  .labels{
+    margin-left:240px;
+    margin-bottom:40px;
+    
+  }
+  .fooditem{
+    width:500px;
+    height:500px;
+    border-radius: 8px;
+    border: 4px solid white;
+  }
+</style>
